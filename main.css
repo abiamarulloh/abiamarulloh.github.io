@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif; font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%; max-height: 100%;
+}
+
+#pertama{
+    background-image: url('gambar/bg.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size:cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    
+    height: 650px;
+    padding-top: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.konten{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.kolom-3{
+    width: 300px;
+    float: left;
+}
+
+.kolom-3-kolom{
+    margin:0 30px;
+
+}
+
+#logo{
+    width: 150px;
+   display: block; margin: 0 auto;
+   border-radius: 100px;
+}
+
+#menu{
+    background-color:#008080;
+    height: 50px; line-height: 50px;
+    font-size: 20px; margin-top: 20px;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+#menu a:hover{
+    background-color: #08b4b4;
+}
+
+#box-sd{
+    background-color: rgba(0,128,128,0.7); font-size: 25px;
+    text-align: center; color: white;
+    margin: 80px 0; padding: 20px 0;
+}
+
+#box-sd a{
+    display: block;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 0;
+    width: 300px;
+    margin: 25px auto 0 auto;
+}
+
+#box-sd a:hover{
+    background-color: white;
+    color: #008080;
+}
+
+/*bagian kedua */
+#kedua{
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+h2{
+    font-size: 40px;
+    padding: 30px 0 45px 0;
+    width: 250px; margin: 0 auto;
+}
+
+#kedua img{
+    width: 250px ;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.setiap-karya-gambar{
+    position: relative;
+}
+
+.setiap-karya-gambar p{
+    position: absolute;
+    top: 0px; left: 25px;
+    width: 250px; height: 250px ; line-height: 250px;
+    text-align: center; font-size: 25px;
+    background-color: rgba(255,255,255,0.8);
+    color: #008080;
+    border-radius: 50%;
+    display: none;
+
+}
+
+.setiap-karya-gambar:hover p{
+    display: block;
+
+}
+
+.deskripsi{
+    font-size: 22px;
+}
+/*bagian ketiga*/
+#kolom-2{
+    float: left;
+    width: 450px;
+    margin: 0 15px;
+}
+
+#ketiga h2{
+    text-align: center;
+    color: #008080;
+}
+
+#ketiga input,#ketiga textarea{
+    display: block;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 12px;
+    border: 2px solid #008080;
+}
+
+#ketiga textarea{
+    height: 130px;
+}
+
+input[type="submit"]{
+    background:#008080;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background:#08b4b4;
+}
+
+
+#ketiga iframe{
+    max-width: 500px;
+    margin-left: 450px;
+    margin-top: -260px;
+}
+
+#footer{
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
