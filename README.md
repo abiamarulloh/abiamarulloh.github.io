@@ -1,3 +1,2 @@
 # abiamarulloh.github.io
-my personal website
-Website Static Pertama ku
+my personal Website Static Pertama ku
